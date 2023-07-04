@@ -1,47 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-*{
-  font-family: 'Inter', sans-serif;
-  user-select: none;
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+    font-family: 'Inter', sans-serif;
+    user-select: none;
 }
 
 .header {
-  text-align: center;
-  height: 70vh;
-  background-color: rgb(12, 189, 12);
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  color: white;
+    text-align: center;
+    height: 98vh;
+    background-color: #606C5D;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: white;
 }
+
 .header h1 {
-  position: relative;
-  top: 3rem;
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
+    position: relative;
+    top: 3rem;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
 }
+
 .header h2 {
-  position: relative;
-  right: 68vh;
-  top: 10rem;
-  font-size: 2rem;
-  margin: 0;
-  padding: 0;
+    position: relative;
+    right: 68vh;
+    top: 10rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
 }
+
 .header button {
-  position: relative;
-  top: 13rem;
-  right: 40rem;
-  width: 10rem;
-  height: 3rem;
-  border: 3px  dashed red;
-  background-color: transparent;
-  color: white;
-  font-size: large;
+    position: relative;
+    top: 13rem;
+    right: 40rem;
+    width: 10rem;
+    height: 3rem;
+    border: 3px dashed red;
+    background-color: transparent;
+    color: white;
+    font-size: large;
 }
+
 .header button:hover {
-  cursor: pointer;
-  background-color: rgb(12, 189, 12);
-  color: white;
-  border: 1px  dashed red;
+    cursor: pointer;
+    background-color: rgb(77, 83, 77);
+    color: white;
+    border: 1px dashed red;
 }
