@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Erasmus Matching Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Erasmus Matching Platform! This platform aims to facilitate the process of finding and connecting students who are interested in participating in the Erasmus exchange program. Whether you are looking for a suitable partner to study with abroad or hoping to host an exchange student, this platform provides a user-friendly environment to match students based on their preferences, interests, and academic goals.
 
-## Available Scripts
+# PLAN
+## Features
 
-In the project directory, you can run:
+The Erasmus Matching Platform offers the following features:
 
-### `npm start`
+1. **Student Profiles**: Students can create profiles with their personal information, academic background, and preferences for the exchange program. This allows them to present themselves and find suitable exchange partners or hosts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Matching Algorithm**: The platform utilizes a sophisticated matching algorithm that takes into account various factors, such as preferred study destinations, fields of study, language proficiency, and cultural interests. This algorithm suggests potential matches for students, enhancing the chances of finding a compatible exchange partner.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Messaging System**: Once students find potential matches, they can use the integrated messaging system to communicate and discuss their expectations, goals, and logistical details. This feature helps establish a connection between students before embarking on their exchange journey.
 
-### `npm test`
+4. **Verification and Safety**: The platform incorporates a verification process to ensure the authenticity of student profiles. Additionally, measures are in place to maintain a safe and respectful environment for all users. Reporting and moderation features are available to address any concerns or inappropriate behavior.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Resource Hub**: The Erasmus Matching Platform provides a resource hub with helpful information and guides related to the Erasmus program. Students can access tips for successful exchanges, cultural insights, and practical advice to make the most of their experience.
 
-### `npm run build`
+6. **Community Engagement**: Students can participate in forums, discussions, and interest groups to connect with a broader community of exchange participants. This fosters a sense of belonging and allows students to seek advice, share experiences, and establish connections with like-minded individuals.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with the Erasmus Matching Platform, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Create an Account**: Sign up for an account on the platform by providing your personal details, including your name, email address, and academic institution.
 
-### `npm run eject`
+2. **Complete Your Profile**: Fill in your profile with accurate information, including your academic background, preferred study destinations, and personal interests. The more comprehensive your profile, the better the matching results will be.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Browse and Connect**: Explore the platform to find potential exchange partners or hosts based on your preferences. Review the suggested matches and profiles, and initiate conversations using the messaging system.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Communicate and Plan**: Engage in meaningful discussions with potential partners or hosts to determine compatibility, discuss expectations, and plan your exchange experience. Take advantage of the messaging system to clarify any doubts and establish a rapport.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Confirm and Prepare**: Once you have found a suitable match, confirm your exchange plans, and make the necessary arrangements. Remember to consider practical aspects, such as accommodation, course selection, and travel logistics.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. **Share your Experience**: After completing your exchange program, consider sharing your experience and insights with the platform's community. This helps future participants and contributes to the growth of the Erasmus exchange network.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
