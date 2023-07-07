@@ -11,12 +11,13 @@ const ProjectList = () => {
       <div className='project-list-container'>
         {projectsData.map((project) => (
             <div className='project-list'>
-          <Link to={`/project/${project.id}`} key={project.id} style={{ textDecoration: 'none' }}>
+            <img className='project-list-img' src='https://www.adelslovakia.org/wp-content/uploads/2023/05/The-Europe-of-Language.jpg' alt={project.title} />
               <h3 className='project-list-des'>
                 <span className='project-list-title'>{project.title}</span>
               </h3>
               <span className='project-list-organizer'>{project.organizer}</span>
-              <p className='project-list-desc'>{project.description}</p>
+              <Link to={`/project/${project.id}`} key={project.id} style={{ textDecoration: 'none' }}>
+              <button className='project-list-btn'>View Project</button>
               </Link>
             </div>
         ))}

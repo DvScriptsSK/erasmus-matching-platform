@@ -1,5 +1,5 @@
 const projectsData = [
-  { id: 1, title: 'Project 1', description: 'Lorem ipsum dolor sit amet.', organizer: 'Organizer A' },
+  { id: 1, title: 'Welcome to World', description: 'Lorem ipsum dolor sit amet.', organizer: 'Adel Slovakia' },
   { id: 2, title: 'Project 2', description: 'Consectetur adipiscing elit.', organizer: 'Organizer B' },
   { id: 3, title: 'Project 3', description: 'Praesent ac orci ut nisl faucibus tempus.', organizer: 'Organizer C' },
   { id: 4, title: 'Project 4', description: 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.', organizer: 'Organizer D' },
