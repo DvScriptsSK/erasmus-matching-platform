@@ -14,7 +14,8 @@ html {
 .header {
     text-align: center;
     height: 98vh;
-    background-color: #606C5D;
+    background-color: #41a329;
+    background-image: linear-gradient(to right, #77C9D4 , #57BC90);
     padding: 0;
     margin: 0;
     width: 100%;

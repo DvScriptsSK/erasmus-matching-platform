@@ -25,7 +25,8 @@
   }
   
   .project-list-container > .project-list {
-    background-color: #f1f0e1;
+    background-color: #57BC90;
+    color: white;
     flex: 0 0 calc(25% - 20px);
     height: 20rem;
     margin: 10px;
@@ -43,14 +44,14 @@
   .project-list-organizer {
     position: relative;
     font-size: 20px;
-    color: black;
+    color: white;
     top: -5rem;
   }
   
   .project-list-title {
     position: relative;
     font-size: 40px;
-    color: black;
+    color: white;
     top: -1.5rem;
   }
   
@@ -58,7 +59,7 @@
     position: relative;
     font-size: 20px;
     top: -6.5rem;
-    color: black;
+    color: white;
   }
   
   .project-list-des {
@@ -69,7 +70,7 @@
   }
   .project-list-container-title {
     font-size: 40px;
-    color: black;
+    color: white;
     text-align: center;
     font-weight: 900;
 
