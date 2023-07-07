@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className='navbar'>
       <div className='navbar__logo'>
-        <img src='https://media.discordapp.net/attachments/845988671538331649/1126784398797328405/Logo.png' alt='logo' />
+        <img src='https://media.discordapp.net/attachments/845988671538331649/1126791048547532920/Logo.png' alt='logo' />
       </div>
       <div className='navbar__links'>
         <a href='#'>Home</a>

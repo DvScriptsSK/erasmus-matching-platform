@@ -13,6 +13,7 @@ const App = () => {
           <h1>Erasmus Projects</h1>
           <h2>Find projects that suit you</h2>
           <button type="button">Find project</button>
+
         </div>
         <ProjectList projects={projectsData} />
       </div>
