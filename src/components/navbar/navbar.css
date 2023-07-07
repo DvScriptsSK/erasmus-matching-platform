@@ -3,9 +3,8 @@
     width: 100%;
     height: 5rem;
     overflow: hidden;
+    background-image: linear-gradient(to right, #77C9D4, #57BC90);
 }
-
-
 
 .navbar__logo img {
     position: relative;
