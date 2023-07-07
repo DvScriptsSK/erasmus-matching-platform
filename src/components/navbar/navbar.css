@@ -5,7 +5,23 @@
     overflow: hidden;
 }
 
-.navbar__logo {
-height: 2px;
-width: 2px;
+
+
+.navbar__logo img {
+    position: relative;
+    width: 7rem;
+    height:7rem;
+    top: -1rem;
+}
+.navbar__links {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
+    height: 100%;
+    top: -7rem;
+    left: 20rem;
+    color: black;
 }
