@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
-
 const NavBar = () => {
   return (
     <div className='navbar'>
@@ -8,10 +8,12 @@ const NavBar = () => {
         <img src='https://media.discordapp.net/attachments/845988671538331649/1126791048547532920/Logo.png' alt='logo' />
       </div>
       <div className='navbar__links'>
-        <a href='#'>Home</a>
-        <a href='#'>About</a>
-        <a href='#'>Contact</a>
-     </div>
+        <Link to='/'>Home</Link>
+        <Link to='/about'>About</Link>
+        <Link to='/contact'>Contact</Link>
+        <Link to='/projects'>Projects</Link>
+        <Link to='/auth/login' className='navbar__links-login'>Login</Link>
+      </div>
     </div>
   );
 };

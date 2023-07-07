@@ -1,0 +1,44 @@
+
+.login {
+    position: relative;
+    width: 35vh;
+    height: 40vh;
+    top: 24vh;
+    background-image: linear-gradient(to right, #77C9D4, #57BC90);
+    overflow: hidden;
+    color: white;
+    border-radius: 10px 100px;
+    border: 5px solid white;
+}
+
+.login__container {
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .login h1 {
+    text-align: center;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login form h5 {
+    margin-top: 1rem;
+  }
+  
+  .login form input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .login__signInButton {
+    margin-top: 1rem;
+    background-color: #57BC90;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }

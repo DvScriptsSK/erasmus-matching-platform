@@ -29,7 +29,6 @@
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
   overflow: hidden;
-
 }
 
 .project-list {
@@ -40,7 +39,7 @@
   position: relative;
   font-size: 20px;
   color: white;
-  top: -9.8rem;
+  top: -9.5rem;
 }
 
 .project-list-title {

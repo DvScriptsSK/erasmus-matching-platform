@@ -18,10 +18,22 @@
     justify-content: space-evenly;
     align-items: center;
     width: 50%;
-    font-size: 2rem;
     height: 100%;
     top: -10rem;
-    left: 20rem;
-    color: black;
-}
+    left: 45rem;
 
+}
+a {
+    text-decoration: none;
+    color: #015249;
+    font-size: 2rem;
+
+}
+ a:hover {
+    scale: 1.1;
+  }
+  
+.navbar__links-login {
+    position: relative;
+    left: 35rem;
+}
