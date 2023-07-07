@@ -26,7 +26,7 @@
 a {
     text-decoration: none;
     color: #015249;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
 }
  a:hover {
@@ -35,5 +35,5 @@ a {
   
 .navbar__links-login {
     position: relative;
-    left: 35rem;
+    left: 38rem;
 }
