@@ -1,0 +1,38 @@
+*{
+    overflow: hidden;
+}
+.project-detail-container {
+    position: relative;
+    width: 60%;
+    height: 100vh;
+    padding: 0px;
+    color: black;
+    text-align: center;
+    border: black solid 1px;
+}
+  
+  .project-detail-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .project-detail-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .project-detail-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .project-detail-container a {
+    color: #57BC90;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .project-detail-container a:hover {
+    color: #41a329;
+  }
+
