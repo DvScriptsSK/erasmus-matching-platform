@@ -20,7 +20,7 @@ const ProjectDetails = () => {
         <div className='project-detail-container'>
         <center>
           <div className='project-details-container-content'>
-          <h2>{project.title}</h2>
+          <span className='project-details-title'>{project.title}</span>
           <p>{project.description}</p>
           <p>{project.organizer}</p>
           <div className='project-detail-buttons'>

@@ -3,7 +3,6 @@
 * {
   font-family: 'Inter', sans-serif;
   user-select: none;
-  overflow-y: hidden;
 }
 
 *::-webkit-scrollbar {
@@ -56,6 +55,7 @@
   top: -6rem;
   width: 90%;
   height: 3rem;
+  right: 8vh;
   background-image: linear-gradient(to right, #3399a7, #489d78);
   border: none;
   border-radius: 5px;
