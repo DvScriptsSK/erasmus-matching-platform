@@ -88,12 +88,12 @@ html {
 @media (min-width: 1024px) {
   .header h2 {
     right: 49vh;
-    top: 20rem;
+    top: 15vh;
   }
 
   .header button {
-    top: 22rem;
-    right: 60vh;
+    top: 20vh;
+    right: 50vh;
   }
 }
 

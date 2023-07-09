@@ -6,7 +6,6 @@ import './projectdetail.css';
 
 const ProjectDetails = () => {
   const { id } = useParams();
-  console.log(id);
 
   const project = projectsData.find((project) => project.id === parseInt(id));
 
@@ -17,9 +16,10 @@ const ProjectDetails = () => {
 
   return (
     <div>
-      <NavBar />
-      <center>
+      <NavBar/>
         <div className='project-detail-container'>
+        <center>
+          <div className='project-details-container-content'>
           <h2>{project.title}</h2>
           <p>{project.description}</p>
           <p>{project.organizer}</p>
@@ -33,15 +33,16 @@ const ProjectDetails = () => {
           </div>
           <div className='project-detail-requirements'>
             <h3>Requirements</h3>
-            <ul>
-              <li>Requirement 1</li>
-              <li>Requirement 2</li>
-              <li>Requirement 3</li>
-              {/* Add more requirements as needed */}
-            </ul>
+              <ul>
+                <li>Requirement 1</li>
+                <li>Requirement 2</li>
+                <li>Requirement 3</li>
+                {/* Add more requirements as needed */}
+              </ul>
+            </div>
           </div>
+          </center>
         </div>
-      </center>
     </div>
   );
 };
