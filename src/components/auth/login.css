@@ -1,9 +1,9 @@
 
 .login {
     position: relative;
-    width: 35vh;
-    height: 40vh;
-    top: 24vh;
+    width: 45vh;
+    height: 60vh;
+    top: 15vh;
     background-image: linear-gradient(to right, #77C9D4, #57BC90);
     overflow: hidden;
     color: white;
