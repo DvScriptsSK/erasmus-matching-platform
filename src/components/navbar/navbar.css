@@ -20,7 +20,7 @@
     width: 50%;
     height: 100%;
     top: -10rem;
-    left: 45rem;
+    left: 45vh;
 
 }
 a {
@@ -35,5 +35,5 @@ a {
   
 .navbar__links-login {
     position: relative;
-    right: 0;
+    left: 40vh;
 }
