@@ -7,7 +7,12 @@
     color: white;
     text-align: center;
     padding: 10px;
-}
+    background-image: linear-gradient(to right, #58dced, #38a978);
+    
+  }
+  *::-webkit-scrollbar {
+    width: 0px; /* Adjust as needed */
+  }
 .project-details-container-content {
   background-color: #57BC90;
   width: 100vh;

@@ -16,7 +16,7 @@ html {
   text-align: center;
   height: 98vh;
   background-color: #41a329;
-  background-image: linear-gradient(to right, #77C9D4, #57BC90);
+  background-image: linear-gradient(to right, #58dced, #38a978);
   padding: 0;
   margin: 0;
   width: 100%;
@@ -35,6 +35,7 @@ html {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% auto;
+
 }
 
 .header h1 {

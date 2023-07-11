@@ -12,7 +12,7 @@
           <div className='header'>
             <h1>Erasmus Projects</h1>
             <h2>Find projects that suit you</h2>
-            <button type="button">Find project</button>
+            <button>Find project</button>
           </div>
           <div className='listside'>
             <ProjectList projects={projectsData} />
