@@ -2,12 +2,15 @@
 .project-detail-container {
     position: relative;
     width: 100%;
-    height: 100vh;
-    padding: 0px;
+    max-height: 100vh;
+    height:100%;
+    overflow: auto;    padding: 0px;
     color: white;
     text-align: center;
     padding: 10px;
     background-image: linear-gradient(to right, #58dced, #38a978);
+    min-height:100%;
+
     
   }
   *::-webkit-scrollbar {
@@ -45,5 +48,25 @@
   
   .project-detail-container a:hover {
     color: #41a329;
+  }
+  .project-detail-button {
+    background-color: #58dced;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .project-detail-button:hover {
+    background-color: #46afbd;
+  }
+  .project-detail-buttons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom:10px;
   }
 
