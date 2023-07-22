@@ -1,5 +1,8 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams,Link } from 'react-router-dom';
+
+
+
 import projectsData from '../../projectsData';
 import NavBar from '../navbar/navbar';
 import './projectdetail.css';
@@ -23,10 +26,7 @@ const ProjectDetails = () => {
           <span className='project-details-title'>{project.title}</span>
           <p>{project.description}</p>
           <p>{project.organizer}</p>
-          <div className='project-detail-buttons'>
-            <button className='project-detail-button'>Info Pack</button>
-            <button className='project-detail-button'>Register</button>
-          </div>
+
           <div className='project-detail-map'>
             {/* Include map component or embed map iframe */}
             <p>Location Map</p>
@@ -40,6 +40,12 @@ const ProjectDetails = () => {
                 {/* Add more requirements as needed */}
               </ul>
             </div>
+            <div className='project-detail-buttons'>
+            <Link to={`${project.infolink}`}>
+            <button className='project-detail-button'> Info Pack </button>
+              </Link>
+            <button className='project-detail-button'>Register</button>
+          </div>
           </div>
           </center>
         </div>
